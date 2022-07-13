@@ -1,0 +1,334 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color:rgb(92,14,47);
+}
+
+
+body{
+    min-height: 100%;
+    font-family: 'Galada', cursive;
+     background-image: url(c.png);
+}
+
+.wrapper{
+    width: 500px;
+    height: 600px;
+    margin: 50px auto;
+    border: solid 8px black;
+    border-radius: 20px;
+    background: white;
+    opacity: 0.7;
+}
+
+.header{
+    width: 100%;
+    text-align: center;
+    height: 50px;
+    background: orange;
+    border-radius: 10px 10px 0 0;
+    font-size: 25px;
+    padding-top: 10px;
+    color: rgb(83,88,179);
+}
+span{
+    border-bottom:  2px black;
+    display: block;
+    height: 90%;
+    width: 100%;
+}
+
+.wrap-list{
+    height: 85%;
+    width: 100%;
+    border-radius: 0 0 10px 10px;
+    background-color: black;
+    
+}
+.btn-bubble {
+  color: white;
+  background-color: #77b11c;
+  background-repeat: no-repeat;
+}
+.btn-bubble:hover, .btn-bubble:focus {
+  -webkit-animation: bubbles 1s forwards ease-out;
+          animation: bubbles 1s forwards ease-out;
+  background: radial-gradient(circle at center, rgba(0, 0, 0, 0) 30%, #eeeeff 60%, #eeeeff 65%, rgba(0, 0, 0, 0) 70%) 104% 110% / 1.04em 1.04em, radial-gradient(circle at center, rgba(0, 0, 0, 0) 30%, #eeeeff 60%, #eeeeff 65%, rgba(0, 0, 0, 0) 70%) 19% 119% / 0.67em 0.67em, radial-gradient(circle at center, rgba(0, 0, 0, 0) 30%, #eeeeff 60%, #eeeeff 65%, rgba(0, 0, 0, 0) 70%) 71% 130% / 1.12em 1.12em, radial-gradient(circle at center, rgba(0, 0, 0, 0) 30%, #eeeeff 60%, #eeeeff 65%, rgba(0, 0, 0, 0) 70%) 101% 142% / 0.5em 0.5em, radial-gradient(circle at center, rgba(0, 0, 0, 0) 30%, #eeeeff 60%, #eeeeff 65%, rgba(0, 0, 0, 0) 70%) 11% 125% / 1.03em 1.03em, radial-gradient(circle at center, rgba(0, 0, 0, 0) 30%, #eeeeff 60%, #eeeeff 65%, rgba(0, 0, 0, 0) 70%) 52% 110% / 0.81em 0.81em, radial-gradient(circle at center, rgba(0, 0, 0, 0) 30%, #eeeeff 60%, #eeeeff 65%, rgba(0, 0, 0, 0) 70%) 69% 149% / 1.18em 1.18em, radial-gradient(circle at center, rgba(0, 0, 0, 0) 30%, #eeeeff 60%, #eeeeff 65%, rgba(0, 0, 0, 0) 70%) -1% 82% / 1.03em 1.03em, radial-gradient(circle at center, rgba(0, 0, 0, 0) 30%, #eeeeff 60%, #eeeeff 65%, rgba(0, 0, 0, 0) 70%) 37% 103% / 0.55em 0.55em, radial-gradient(circle at center, rgba(0, 0, 0, 0) 30%, #eeeeff 60%, #eeeeff 65%, rgba(0, 0, 0, 0) 70%) 108% 127% / 0.92em 0.92em, radial-gradient(circle at center, rgba(0, 0, 0, 0) 30%, #eeeeff 60%, #eeeeff 65%, rgba(0, 0, 0, 0) 70%) 19% 142% / 0.62em 0.62em;
+  background-color: #77b11c;
+  background-repeat: no-repeat;
+}
+
+@-webkit-keyframes bubbles {
+  100% {
+    background-position: 98% 11%, 11% -177%, 76% -382%, 102% 10%, 5% -101%, 55% -135%, 74% -301%, 9% 34%, 43% -101%, 107% -249%, 22% -387%;
+    box-shadow: inset 0 -6.5em 0 #0072c4;
+  }
+}
+
+@keyframes bubbles {
+  100% {
+    background-position: 98% 11%, 11% -177%, 76% -382%, 102% 10%, 5% -101%, 55% -135%, 74% -301%, 9% 34%, 43% -101%, 107% -249%, 22% -387%;
+    box-shadow: inset 0 -6.5em 0 #0072c4;
+  }
+}
+
+.btn2 {
+  display: inline-block;
+  text-decoration: none;
+  padding: 1em 2em;
+  margin: center;
+}
+.a1{
+    background-color: black;
+    position: sticky;
+    left: 0px;
+    top: 0px;
+    display: grid;
+    grid-template-columns: 86% 14%;
+    justify-content: center;
+    align-items: center;
+    
+}
+h1{
+    margin: 0;
+    padding: 5px;
+    text-align:center;
+    color: white;
+    font-family: monospace;
+    font-style: oblique;
+}
+.a2 ul{
+    margin:10px;
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+#s{
+    color:blue;}
+
+.a2 li{
+    display: inline-block;
+    margin:5px;;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    cursor:pointer;
+    color:gold;
+    padding: 5px;
+    padding-bottom: 0px;
+    padding-top:0px;
+}
+.a2 li:hover {
+  background-color: orange;
+  color: black;
+}
+.a2 li.active {
+  background-color: #2196F3;
+  color: white;
+}
+
+.a2 .search-container {
+    display: inline;
+    padding-left: 135px;
+}
+
+.a2 input[type=text] {
+  padding: 6px;
+  font-size: 17px;
+  border: none;
+}
+
+.a2 .search-container button {
+  padding: 6px 10px;
+  margin-right: 0px;
+  background-color: black;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+#kk:hover {
+  background-color:black;
+  color: black;
+}
+
+
+
+.list{
+    list-style: none;
+    color: rgba(0,0,0, .8)
+}
+
+.list li{
+   width: 100%;
+    float: left;
+}
+
+label{
+    padding: 10px 10px 10px 10px;
+    float: left;
+    width: 90%;
+    color: aqua;
+    font-size: 25px;
+
+}
+i{
+    color: rgb(83,88,179);
+    height: 20px;
+    
+}
+
+
+button{
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-left:auto;
+    padding-right: auto;
+    font-size:15px;
+    font:bold;
+    color: whitesmoke;
+    border: 1px solid grey;
+    background-color: grey;
+    cursor:pointer;
+}
+input{
+    height:20px;
+    width:151px;
+    
+}
+hr { width:100%; height:1px; background: #fff }
+.btn{
+    background-color: blue
+}
+.btn1{
+    background-color: blue;
+    height: 40px;
+    width: 70px;
+    
+}
+.sf{
+      width:20px;
+        margin-top:7px; 
+        margin-right:8px;
+        
+    }
+@media only screen and (max-width: 900px) and (min-width:500px)
+{
+   
+    .wrapper{
+    width: 500px;
+    height: auto;
+    margin: 15px auto;
+    border: solid 8px aqua;;
+    border-radius: 20px;
+    background: white;
+    opacity: 0.7;
+    }}
+@media only screen and (max-width: 500px) {
+    
+.a1{
+    z-index: 3;
+    background-color: black;
+    position: sticky;
+    left: 0px;
+    top: 0px;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-size: 16px;
+    font-family:fantasy;
+    letter-spacing: 1px;
+    text-align:center;
+    color: white;
+    font-family: monospace;
+    font-style: oblique;
+}
+
+.a1 button{
+    margin: 2px;
+    padding: 2px;
+    display: inline;
+    font-size:10px;
+    float: right;
+    color: whitesmoke;
+    border: 1px solid grey;
+    background-color: grey;
+    cursor:pointer;
+}
+    
+    .ac a{
+    color: white;
+    background-color:indigo;
+    border-radius: 8px;
+    padding: 0;
+}
+.a2 ul{
+    margin:0;
+    text-decoration: none;
+    padding: 1px;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.a2 li{
+    margin:5px;
+    cursor:pointer;
+    color:darkorange;
+}
+.a2 li a{
+    padding: 5px;
+}
+    #kk{display: none;
+    }
+
+.a2{margin: 0;
+    padding: 0;
+    background-color: black;
+    position: sticky;
+    left: 0px;
+    top: 30px;
+    z-index: 3;
+}
+ label{
+    padding: 10px 10px 10px 10px;
+    float: left;
+    width: 90%;
+    color: aqua;
+    font-size: 15px;
+
+} 
+ .wrapper{
+    width: 90%;
+    height: 600px;
+    margin: 10px auto;
+    border: solid 8px black;
+    border-radius: 20px;
+    background: white;
+    opacity: 0.7;
+}
+
+    #st{
+        width:10px;
+        margin-top:3px; 
+        margin-right:3px;
+    }
+    
+
+
+}
+
+    a {
+     text-decoration: none;
+    font-size: 15px;
+        color: aliceblue;
+    }
+  
